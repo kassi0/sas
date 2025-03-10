@@ -1,0 +1,122 @@
+body {
+    background-image: url('../img/image.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Garante que a imagem cubra toda a tela */
+    background-position: top center; /* Centralizada e no topo */
+    background-repeat: no-repeat; /* Sem repetição */
+    background-attachment: fixed; /* Opcional: fixa a imagem ao rolar a página */
+}
+
+.regras li {
+    background: url('https://img.icons8.com/fluency/20/checked.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+h6 {
+    color: #333;
+}
+.regras {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #666;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: fantasy;
+    background-color: #fffbfb00; /* ou outra cor que desejar */
+    z-index: 9999; /* garante que fique sobre outros elementos */
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-text {
+    display: block;
+    width: auto;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+
+}
+
+.logo-governo {
+    width: auto;
+    height: 80px;
+}
+
+.animated.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+img {
+    border-style: none;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    color: 505050;
+    box-sizing: border-box;
+    height: 100px;
+    width: 1140px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pl-3, .px-3 {
+    padding-left: 1rem !important;
+}
+
+.pt-2, .py-2 {
+    padding-top: .5rem !important;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important
+;
+}
+@media (min-width: 768px) {
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+.col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
