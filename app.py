@@ -10,7 +10,7 @@ from datetime import datetime
 from logging.handlers import TimedRotatingFileHandler
 
 app = Flask(__name__)
-app.secret_key = 'GraImiNUtIcAPHorpHeIvEnorcedIELioNTEsOnsFifIELeWar'  # Troque por algo realmente secreto
+app.secret_key = 'CHAVE DE SEGREDO'  # Troque por algo realmente secreto
 
 DATABASE = 'app.db'
 

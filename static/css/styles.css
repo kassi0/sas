@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/image.png'); /* Substitua pelo caminho da sua imagem */
+    /* background-image: url('../img/#'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Garante que a imagem cubra toda a tela */
     background-position: top center; /* Centralizada e no topo */
     background-repeat: no-repeat; /* Sem repetição */
